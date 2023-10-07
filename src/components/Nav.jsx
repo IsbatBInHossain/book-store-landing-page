@@ -8,12 +8,12 @@ const NavBar = () => {
         <div className=' w-12 h-12'>
           <img src={LogoSvg} alt='logo' />
         </div>
-        <h1 className=' font-ultrabold tracking-tighter flex flex-col'>
+        <h1 className=' font-ultrabold tracking-[-0.06rem] flex flex-col'>
           <span>Banbury</span> Cross
         </h1>
       </div>
       <div className=''>
-        <ul className='flex justify-between gap-5 font-extrabold'>
+        <ul className='flex justify-between gap-5 font-ultrabold'>
           <li>
             <a href='#'>Home</a>
           </li>
